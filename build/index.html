@@ -1,0 +1,52 @@
+Html Webpack Plugin:
+<pre>
+  Error: Parse Error: <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap" rel="stylesheet"
+      <script src=" https://fb.me/react-with-addons-0.14.6.js"></script>
+      <script src="https://fb.me/react-dom-0.14.6.js"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      <!--
+        Notice the use of %PUBLIC_URL% in the tags above.
+        It will be replaced with the URL of the `public` folder during the build.
+        Only files inside the `public` folder can be referenced from the HTML.
+        Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+        work correctly both with client-side routing and a non-root public URL.
+        Learn how to configure a non-root public URL by running `npm run build`.
+      -->
+      <title>My App</title>
+    <link href="/insight/static/css/2.8278ec6d.chunk.css" rel="stylesheet"><link href="/insight/static/css/main.37868d64.chunk.css" rel="stylesheet"></head>
+    <body>
+      <div id="root"></div>
+      <script src="../src/index.js" type="text/jsx"></script>
+      <!--
+        This HTML file is a template.
+        If you open it directly in the browser, you will see an empty page.
+        You can add webfonts, meta tags, or analytics to this file.
+        The build step will place the bundled scripts into the <body> tag.
+        To begin the development, run `npm start` or `yarn start`.
+        To create a production bundle, use `npm run build` or `yarn build`.
+      -->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script>!function(e){function t(t){for(var n,i,l=t[0],p=t[1],f=t[2],c=0,s=[];c<l.length;c++)i=l[c],Object.prototype.hasOwnProperty.call(o,i)&&o[i]&&s.push(o[i][0]),o[i]=0;for(n in p)Object.prototype.hasOwnProperty.call  (p,n)&&(e[n]=p[n]);for(a&&a(t);s.length;)s.shift()();return u.push.apply(u,f||[]),r()}function r(){for(var e,t=0;t<u.length;t++){for(var r=u[t],n=!0,l=1;l<r.length;l++){var p=r[l];0!==o[p]&&(n=!1)}n&&(u.splice(t--,1),e=i  (i.s=r[0]))}return e}var n={},o={1:0},u=[];function i(t){if(n[t])return n[t].exports;var r=n[t]={i:t,l:!1,exports:{}};return e[t].call(r.exports,r,r.exports,i),r.l=!0,r.exports}i.m=e,i.c=n,i.d=function(e,t,r){i.o(e,t)||O  bject.defineProperty(e,t,{enumerable:!0,get:r})},i.r=function(e){"undefined"!==typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!  0})},i.t=function(e,t){if(1&t&&(e=i(e)),8&t)return e;if(4&t&&"object"===typeof e&&e&&e.__esModule)return e;var r=Object.create(null);if(i.r(r),Object.defineProperty(r,"default",{enumerable:!0,value:e}),2&t&&"string"!=typ  eof e)for(var n in e)i.d(r,n,function(t){return e[t]}.bind(null,n));return r},i.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return i.d(t,"a",t),t},i.o=function(e,t){return Object  .prototype.hasOwnProperty.call(e,t)},i.p="/insight/";var l=this.webpackJsonppositive=this.webpackJsonppositive||[],p=l.push.bind(l);l.push=t,l=l.slice();for(var f=0;f<l.length;f++)t(l[f]);var a=p;r()}([]);
+  //# sourceMappingURL=runtime-main.e0bc964c.js.map</script><script src="/insight/static/js/2.0227e51f.chunk.js"></script><script src="/insight/static/js/main.4dbdab0e.chunk.js"></script></body>
+  </html>
+  
+  - htmlparser.js:240 new HTMLParser
+    [Positive]/[html-minifier]/src/htmlparser.js:240:13
+  
+  - htmlminifier.js:966 minify
+    [Positive]/[html-minifier]/src/htmlminifier.js:966:3
+  
+  - htmlminifier.js:1326 Object.exports.minify
+    [Positive]/[html-minifier]/src/htmlminifier.js:1326:16
+  
+  - index.js:437 HtmlWebpackPlugin.postProcessHtml
+    [Positive]/[html-webpack-plugin]/index.js:437:34
+  
+  - index.js:270 
+    [Positive]/[html-webpack-plugin]/index.js:270:25
+  
+</pre>
