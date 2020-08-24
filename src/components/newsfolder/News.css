@@ -1,0 +1,213 @@
+.variable-width .slick-slide p {
+    background: blue;
+    height: 100px;
+    color: #fff;
+    margin: 5px;
+    line-height: 100px;
+    text-align: center;
+  }
+  .center .slick-center h3 {
+    color: #e67e22;
+    opacity: 1;
+    transform: scale(1.08);
+  }
+  .center h3 {
+    opacity: 0.8;
+    transition: all 300ms ease;
+  }
+  .content {
+    padding: 20px;
+    margin: auto;
+    width: 90%;
+  }
+  .slick-slide .image {
+    padding: 10px;
+  }
+  .slick-slide img {
+    border: 0px solid #fff;
+    display: block;
+    margin: auto;
+  }
+  .slick-slide img.slick-loading {
+    border: 0;
+  }
+  .slick-slider {
+    margin: 30px auto 50px;
+  }
+  .slick-dots {
+    margin-left: 0;
+  }
+  .slick-thumb {
+    bottom: -45px;
+  }
+  .slick-thumb li {
+    width: 60px;
+    height: 45px;
+  }
+  .slick-thumb li img {
+    filter: grayscale(100%);
+  }
+  .slick-thumb li.slick-active img {
+    filter: grayscale(0%);
+  }
+
+.newscard {
+    width: 10rem;
+    height: 8rem;
+    background-color: #e67e22;
+    line-height: 100px;
+}
+.slick-prev {
+    z-index: 100;
+    left: 20px !important;
+    /* background-color:bisque; */
+}
+.slick-next {
+    right: 20px !important;
+    /* background-color: black !important; */
+}
+
+
+/* .outer-slider {
+    margin-left: 10px;
+} */
+.card:hover {
+  box-shadow: inset 10px 10px 8px -10px #CCC, inset -10px -10px 8px -10px #CCC;
+  animation-name: up;
+  animation-duration: 5ms;
+}
+@keyframes up {
+  0% {
+    transform: translateY(-1px);
+}
+60% {
+    transform: translateY(-2px);
+}
+100% {
+    transform: translateY(-10px);
+}
+}
+.input-group-news {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+  padding: 10rem 20rem 0rem;
+}
+.search-news-icon {
+  cursor: pointer;
+  position: absolute;
+  height: 34px;
+  width: 34px;
+}
+.slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  margin-top: -20px;
+}
+.news-card {
+  width: 26rem;
+}
+
+.news-footer{
+  
+  position: fixed;
+  bottom: 0 ;
+  margin:0;
+  width: 100%;
+  background-color: red;
+  display: inline-flex;
+  overflow: hidden;
+  white-space: nowrap;
+  z-index: 3;
+}
+
+.text-news
+{ 
+padding-top: 10px;
+    vertical-align: middle;
+    font-size: 25px;
+    color: yellow;
+    margin: 0;
+  width:100%;
+    animation: marquee 10s linear infinite;
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.news-right{
+  height:auto;
+  background-color:Blue;
+  padding: 10px 30px 10px 30px;
+  font-size: x-large;
+  color: white;
+  z-index:1;
+   display: block;
+}
+
+.news-footer:after {
+	content:'';
+  top:0;
+	transform:translateX(100%);
+	width:100%;
+	height:220px;
+	position: absolute;
+	z-index:1;
+	animation: slide 5s infinite;
+	 
+  /* 
+  CSS Gradient - complete browser support from http://www.colorzilla.com/gradient-editor/ 
+  */
+  background: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0.8) 50%, rgba(128,186,232,0) 99%, rgba(125,185,232,0) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,255,255,0)), color-stop(50%,rgba(255,255,255,0.8)), color-stop(99%,rgba(128,186,232,0)), color-stop(100%,rgba(125,185,232,0))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,0.8) 50%,rgba(128,186,232,0) 99%,rgba(125,185,232,0) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,0.8) 50%,rgba(128,186,232,0) 99%,rgba(125,185,232,0) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,0.8) 50%,rgba(128,186,232,0) 99%,rgba(125,185,232,0) 100%); /* IE10+ */
+	background: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,0.8) 50%,rgba(128,186,232,0) 99%,rgba(125,185,232,0) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#007db9e8',GradientType=1 ); /* IE6-9 */
+}
+
+/* animation */
+
+@keyframes slide {
+	0% {transform:translateX(-100%);}
+	100% {transform:translateX(100%);}
+}
+
+.slick-next:before {
+  content: '' !important;
+}
+
+.slick-prev:before{
+  content : '' !important;
+}
+@media (max-width:415px) {
+  .input-group-news {
+    padding: 10rem 8rem 0rem 5rem !important;
+}
+.news-card {
+  margin-left: 5.5rem !important;
+}
+.slick-next {
+  right: -18px !important;
+  /* background-color: black !important; */
+}
+.slick-prev {
+  left: 2px !important;
+  /* background-color: bisque; */
+}
+}
+@media (max-width:395px) {
+.news-card {
+  margin-left: 4.5rem !important;
+}
+}
+@media (max-width:380px) {
+  .news-card {
+    margin-left: 3.8rem !important;
+  }
+  }

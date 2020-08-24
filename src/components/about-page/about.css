@@ -1,0 +1,71 @@
+
+
+.about {
+	color: #2c3e50;
+	font-size: 1em;
+	font-family: 'Source Serif Pro', 'Helvetica Neue', serif;
+}
+
+.about-h2 {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.about-img {
+    text-align: center;
+    height: 82vh;
+}
+
+
+
+.header-about {
+	padding:3.5em 0 3rem;
+	background-image: url('https://dl.dropboxusercontent.com/u/18570019/header-image.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.header-intro,
+.header-name {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header-intro {
+	margin-bottom: 0em;
+	color: #e67e22;
+	font-size: 2.25em;
+	text-shadow: 0px 1px 0px #d35400;
+}
+
+.header-name {
+	margin-top: 0.1em;
+	color: #e67e22;
+	font-size: 6.0em;
+	text-shadow: 0px 3px 0px #d35400;
+	font-weight: 700;
+}
+
+
+.questions {
+	max-width: 37.5em;
+	margin: 0 auto;
+	margin-top: 3em;
+	line-height: 1.5em;
+}
+
+.questions h3 {
+	color: #e67e22;
+}
+.about {
+    max-width: 35.5em;
+    margin: 0 auto;
+    margin-top: 0em;
+    line-height: 1.5em;
+    padding-top: 5rem;
+}
+
+@media (max-width:415px) {
+	.about-img {
+		height: 48vh !important;
+	}
+}

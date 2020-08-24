@@ -1,0 +1,72 @@
+.card-sign {
+  width: 46rem;
+  height: 20rem;
+  background-image: linear-gradient(to right top, #4c85cb, #4289cb, #398cca, #318fc9, #2a92c7, #2494c6, #1f97c5, #1b99c3, #149bc2, #0e9dc1, #099fc0, #07a1be);
+  position: absolute;
+  margin-top: 33rem;
+  margin-left: 16rem;
+  position: relative;
+  border-radius: 9px;
+  }
+  .cardsign-title {
+    color: white;
+    padding: 5% 18%;
+  }
+  .cardsign-text input {
+    width: 18rem;
+    height: 3.6rem;
+    margin: 0 25px;
+    border-radius: 7px;
+    border: none;
+    padding-left: 2%;
+  }
+
+  .btn-card-sign {
+      margin: 4% 33%;
+      width: 145px;
+    }
+
+   .leftsign {
+      position: relative;
+      top: -19.0rem;
+
+      left: -10rem;
+    }
+
+   .sign-img {
+     display: none;
+   }
+
+    .rightsign {
+      position: relative;
+      top: -19rem;
+      right: -35rem;
+    }
+
+    .card-sign:hover .sign-img {
+      display: block;
+      animation-name: slow;
+      animation-duration: 0.7s;
+    }
+    @keyframes slow {
+      0% {
+        opacity: 0;
+      }
+      20% {
+        opacity: 0.3;
+      }
+      50% {
+        opacity: 0.6;
+      }
+      75% {
+        opacity: 0.8;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+@media (max-width:415px) {
+  .sign-img {
+    display: none !important;
+  }
+}
